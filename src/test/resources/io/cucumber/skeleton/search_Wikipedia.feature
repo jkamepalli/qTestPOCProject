@@ -2,7 +2,7 @@ Feature: search Wikipedia
  
   Background:
     Given Open http://en.wikipedia.org
-    And Do login
+    And Do login!!
  
   Scenario: direct search article
     Given Enter search term 'Cucumber'
