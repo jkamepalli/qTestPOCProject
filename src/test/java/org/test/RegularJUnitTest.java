@@ -19,6 +19,18 @@ public class RegularJUnitTest {
     }
 
     @Test
+    public void testAddition2ThatWorks() {
+        MathsMachine machine = new MathsMachine();
+
+        machine.setCurrentTotal(0);
+        machine.add(12);
+        machine.subtract(10);
+        machine.multiply(2);
+
+        assertEquals(4, machine.getCurrentTotal());
+    }
+
+    @Test
     public void testAdditionThatFails() {
         MathsMachine machine = new MathsMachine();
 
