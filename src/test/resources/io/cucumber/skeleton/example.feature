@@ -30,8 +30,13 @@ Feature: Maths Check
     When I add 1000
     Then Current total is equal to 999
     
-Scenario: Check Addition to a negative number
+ Scenario: Check Addition to a negative number2
     Given Current total is set to -10
     When I add 1010
     Then Current total is equal to 1000
+    
+ Scenario: Check Addition to a negative number3
+    Given Current total is set to -10
+    When I add 1010
+    Then Current total is equal to 999
 
