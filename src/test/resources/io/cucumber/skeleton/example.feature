@@ -27,7 +27,7 @@ Feature: Maths Check
     
  Scenario: Check Addition with a very small number
     Given Current total is set to 1
-    When I add 1
+    When I add 15
     Then Current total is equal to 2
 
   Scenario: Check Addition to a negative number
