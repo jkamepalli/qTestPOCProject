@@ -20,28 +20,4 @@ Feature: Maths Check
     When I divide by 2
     Then Current total is equal to 5
 
-  Scenario: Check Addition with a big number
-    Given Current total is set to 1
-    When I add 1000
-    Then Current total is equal to 1001
-    
- Scenario: Check Addition with a very small number
-    Given Current total is set to 1
-    When I add 15
-    Then Current total is equal to 2
-
-  Scenario: Check Addition to a negative number
-    Given Current total is set to -1
-    When I add 1000
-    Then Current total is equal to 999
-    
- Scenario: Check Addition to a negative number - Pass Case
-    Given Current total is set to -10
-    When I add 1010
-    Then Current total is equal to 1000
-    
- Scenario: Check Addition to a negative number - Fail Case
-    Given Current total is set to -10
-    When I add 1010
-    Then Current total is equal to 999
-
+  
