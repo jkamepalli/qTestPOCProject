@@ -1,15 +1,5 @@
 Feature: Maths Check
 
-  Scenario: Check Addition
-    Given Current total is set to 0
-    When I add 1
-    Then Current total is equal to 1
-
-  Scenario: Check Subtraction
-    Given Current total is set to 10
-    When I subtract 1
-    Then Current total is equal to 9
-
   Scenario: Check Multiplication
     Given Current total is set to 10
     When I multiple by 3
