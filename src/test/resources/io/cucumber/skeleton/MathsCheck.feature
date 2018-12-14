@@ -9,5 +9,10 @@ Feature: Maths Check
     Given Current total is set to 10
     When I divide by 2
     Then Current total is equal to 5
+    
 
+ Scenario: Check addition of Decimals
+   Given the inputs are two decimals
+   When I add them
+   Then I except correct result
   
