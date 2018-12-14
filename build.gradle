@@ -12,3 +12,13 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+task unitTest(type: Test) {
+    group "verification"
+    include "**/*JUnitTest.class"
+}
+
+task bddTest(type: Test) {
+    group "verification"
+    include "**/RunCucumberTest.class"
+}
