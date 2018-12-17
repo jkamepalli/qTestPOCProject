@@ -15,17 +15,3 @@ Feature: Maths Check
     Given Current total is set to 5
     When I multiple by 3
     Then Current total is equal to 15
-
-  Scenario: Check Multiplication
-    Given Current total is set to 5
-    When I multiple by 3
-    Then Current total is equal to 16
-    
-
-Scenario: Check addition of Decimals
-   Given the inputs are two decimals
-   When I add them
-   Then I except correct result
-
-
-    
