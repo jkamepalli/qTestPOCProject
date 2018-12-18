@@ -14,4 +14,4 @@ Feature: Maths Check
  Scenario: Check Multiplication
     Given Current total is set to 5
     When I multiple by 3
-    Then Current total is equal to 15
+    Then Current total is equal to 16
