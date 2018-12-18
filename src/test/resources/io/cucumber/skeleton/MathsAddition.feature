@@ -19,3 +19,11 @@ Scenario: Check Addition to a negative number - Failed Case
    Given Current total is set to -10
    When I add 1010
    Then Current total is equal to 999
+
+
+  Scenario: Check Addition to a negative number - Failed Case
+    Given Current total is set to 10
+    When I add 1010
+    Then Current total is equal to 1020
+
+
