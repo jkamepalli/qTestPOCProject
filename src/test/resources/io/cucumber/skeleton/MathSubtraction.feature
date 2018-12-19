@@ -15,4 +15,4 @@ Scenario: Check Subtraction with big number
  Scenario: Check Subtraction - Failed case
    Given Current total is set to 10
    When I subtract 1
-   Then Current total is equal to 1001
+   Then Current total is equal to 1000
