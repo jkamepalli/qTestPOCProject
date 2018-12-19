@@ -20,6 +20,11 @@ Scenario: Check Addition to a negative number - Failed Case
    When I add 1010
    Then Current total is equal to 999
 
+  Scenario: Check Addition to a negative number
+    Given Current total is set to -11
+    When I add 1010
+    Then Current total is equal to 999
+
 Scenario: Check addition of Decimals
    Given the inputs are two decimals
    When I add them
